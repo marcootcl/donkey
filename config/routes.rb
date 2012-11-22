@@ -1,4 +1,6 @@
 Donkey::Application.routes.draw do
+  resources :stables
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
